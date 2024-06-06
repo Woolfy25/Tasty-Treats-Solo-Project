@@ -1,0 +1,60 @@
+body.dark-mode{
+    background-color: var(--background-d);
+}
+
+/* Header dark mode */
+
+.dark-mode .logo-second {
+    color: var(--background-w);
+}
+
+.dark-mode .header-nav-links{
+    color: var(--background-w);
+}
+
+.dark-mode .nav-link-active{
+    color: var(--green);
+}
+
+.dark-mode .shopping-icon-use{
+    fill: var(--black);
+    stroke: white;
+}
+
+.dark-mode .shopping-icon {
+    background-color: var(--background-d);}
+
+.dark-mode .header-order-btn {
+    background-color: var(--background-d);
+}
+
+.dark-mode .header-nav-links:hover,
+.header-nav-links:focus{
+    color: var(--green);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);}
+
+
+/* Mobile-menu dark mode */
+
+.dark-mode .mobile-menu-icon{
+    stroke: var(--background-w);
+}
+
+.dark-mode .mobile-menu{
+    background-color: var(--black);
+}
+
+.dark-mode .active-header-list-item{
+    color: var(--green);
+}
+
+.dark-mode .mob-menu-list{
+    color: white;
+    text-decoration: none;
+}
+.dark-mode .mob-menu-list:hover {
+    color: var(--green);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);}
+.dark-mode .mob-menu-btn {
+    background-color: var(--background-d);
+}
