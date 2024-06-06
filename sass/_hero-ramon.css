@@ -87,6 +87,14 @@
   max-width: 127px;
 }
 
+.hero-button:hover,
+.hero-button:focus {
+  transition: all 0.5s;
+  border-radius: 15px;
+  background: #9bb537;
+  color: #f8f8f8;
+}
+
 /* SLIDER */
 
 .slide-wrapper {

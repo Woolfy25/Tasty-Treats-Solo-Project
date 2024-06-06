@@ -1,0 +1,39 @@
+.hero-title-dark {
+  color: #fff;
+  font-family: Inter;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%; /* 43.2px */
+  text-transform: uppercase;
+
+  max-width: 446px;
+}
+
+.hero-button-dark {
+  display: inline-flex;
+  padding: 14px 28px;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 15px;
+  border: 1px solid #9bb537;
+  background: transparent;
+
+  color: #fff;
+  font-family: Inter;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+
+  max-width: 127px;
+}
+
+.hero-button-dark:hover,
+.hero-button-dark:focus {
+  transition: all 0.5s;
+  border-radius: 15px;
+  background: #9bb537;
+  color: #f8f8f8;
+}
