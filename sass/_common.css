@@ -1,14 +1,14 @@
-@import '~node_modules/modern-normalize/modern-normalize.css';
-body{
-    height: 100%;
-    font-family: Inter, sans-serif;
-    font-weight: 400;
-    color: var(--black);
-    background-color: var(--background-w);
+@import "~node_modules/modern-normalize/modern-normalize.css";
+body {
+  height: 100%;
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+  color: var(--black);
+  background-color: var(--background-w);
 }
 
 html,
-body{
+body {
   height: 100%;
-  margin: auto 30px;
+  /* margin: auto 30px; */
 }
