@@ -9,6 +9,8 @@
 }
 
 .hero {
+  /* centrat */
+  margin: auto;
   width: 1280px;
 }
 
