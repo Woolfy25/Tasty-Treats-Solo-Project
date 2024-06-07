@@ -117,7 +117,7 @@
 
   gap: 16px;
 
-  transition: 0.5s;
+  transition: 1s;
 }
 
 /* FIRST CONTAINER */
@@ -292,17 +292,19 @@
 }
 
 .manual-btn {
-  border: 1px solid #050505;
-  padding: 4px;
+  padding: 5px;
   border-radius: 15px;
   cursor: pointer;
-  background: #050505;
 
-  transition: 0.5s;
+  /* WEIRD BUTTON */
+  /* background: #050505; */
+  /* transition: 0.5s; */
+  /* solid #050505 */
 }
 
 .manual-btn:hover {
-  border-color: #9bb537;
+  padding: 4px;
+  border: 1px solid#9bb537;
   background: #9bb537;
 }
 

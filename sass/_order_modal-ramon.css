@@ -20,8 +20,6 @@
   transform: translate(-50%, -50%) scale(0);
 
   width: 440px;
-  /* DELETE HEIGHT */
-  height: 500px;
   padding: 40px;
 
   border-radius: 15px;
@@ -110,4 +108,51 @@
   font-style: normal;
   font-weight: 500;
   line-height: 18px; /* 128.571% */
+}
+
+.form-div > input {
+  display: flex;
+  width: 360px;
+  height: 48px;
+  padding: 14px 169px 14px 18px;
+  align-items: flex-start;
+  gap: 32px;
+
+  border-radius: 15px;
+  border: 1px solid rgba(5, 5, 5, 0.2);
+}
+
+.form-div > textarea {
+  display: flex;
+  width: 360px;
+  height: 100px;
+  padding: 14px 169px 14px 18px;
+  align-items: flex-start;
+  gap: 32px;
+
+  border-radius: 15px;
+  border: 1px solid rgba(5, 5, 5, 0.2);
+}
+
+.submit-form {
+  display: flex;
+  max-width: 360px;
+  height: 48px;
+  padding: 14px 162px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+
+  border: none;
+  color: #fff;
+
+  border-radius: 15px;
+  background: #9bb537;
+}
+
+.submit-form:hover,
+.submit-form:focus {
+  border: 2px solid black;
+  color: black;
 }
