@@ -11,17 +11,16 @@
 .hero {
   /* centrat */
   margin: auto;
-  width: 1280px;
+  max-width: 1280px;
+
+  overflow: hidden;
 }
 
 .hero-container {
-  /* WIDTH */
-  /* width: 1280px; */
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   gap: 32px;
-
-  margin-left: 100px;
 }
 
 .hero-left-side {
@@ -29,6 +28,8 @@
   display: flex;
   flex-direction: column;
   gap: 32px;
+
+  margin-left: 100px;
 }
 
 .hero-text-container {
@@ -282,13 +283,11 @@
 }
 
 .manual-nav {
-  margin-top: 10px;
-  width: 702px;
+  margin-top: 20px;
+  max-width: 702px;
   display: flex;
+  margin-left: 309px;
   gap: 5px;
-  justify-content: center;
-
-  position: absolute;
 }
 
 .manual-btn {
@@ -323,15 +322,15 @@
 /* TESTING AUTO NAV */
 
 .auto-nav {
-  width: 702px;
+  max-width: 702px;
   display: flex;
   gap: 5px;
-  justify-content: center;
 
   position: absolute;
+  left: 44%;
+  bottom: 0px;
 
-  bottom: -20px;
-  /* z-index: 1; */
+  z-index: -1;
 }
 
 .auto-nav div {
@@ -360,3 +359,8 @@
 }
 
 /* TESTING AUTO NAV END */
+
+/* MEDIA QUERIES */
+
+@media screen and (768px <= width <= 1279px) {
+}
