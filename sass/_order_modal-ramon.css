@@ -54,6 +54,8 @@
   border: none;
 
   transition: background-color 400ms linear, transform 400ms ease-in-out;
+
+  cursor: pointer;
 }
 
 .exit-button:hover,
@@ -61,10 +63,12 @@
   transform: scale(1.5) rotate(90deg);
 }
 
-.exit-button > img {
+.exit-button > svg {
   display: flex;
   justify-content: center;
   align-items: center;
+
+  stroke: #050505;
 
   width: 24px;
   height: 24px;

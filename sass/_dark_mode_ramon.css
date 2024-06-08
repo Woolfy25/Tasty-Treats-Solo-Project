@@ -1,39 +1,53 @@
 .hero-title-dark {
   color: #fff;
-  font-family: Inter;
-  font-size: 36px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 120%; /* 43.2px */
-  text-transform: uppercase;
+}
 
-  max-width: 446px;
+.hero-information-dark {
+  color: #fff;
 }
 
 .hero-button-dark {
-  display: inline-flex;
-  padding: 14px 28px;
-  justify-content: center;
-  align-items: center;
-
-  border-radius: 15px;
   border: 1px solid #9bb537;
   background: transparent;
 
   color: #fff;
-  font-family: Inter;
-  font-size: 13px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-
-  max-width: 127px;
 }
 
 .hero-button-dark:hover,
 .hero-button-dark:focus {
-  transition: all 0.5s;
-  border-radius: 15px;
   background: #9bb537;
   color: #f8f8f8;
+}
+
+.auto-nav-dark div {
+  border: 1px solid #fff;
+  background: #fff;
+}
+
+.content-dark {
+  background: #050505;
+}
+
+.exit-button-dark > svg {
+  stroke: #fff;
+}
+
+.form-title-dark {
+  color: #fff;
+}
+
+.labels-dark {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.form-div-dark > input {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: transparent;
+  color: #fff;
+}
+
+.form-div-dark > textarea {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: transparent;
+  color: #fff;
 }
