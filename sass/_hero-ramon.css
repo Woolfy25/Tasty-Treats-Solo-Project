@@ -10,7 +10,7 @@
 
 .hero {
   /* centrat */
-  margin: auto;
+  margin: 0 auto;
   max-width: 1280px;
 
   overflow: hidden;
@@ -19,7 +19,6 @@
 .hero-container {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
   gap: 32px;
 }
 
@@ -291,19 +290,18 @@
 }
 
 .manual-btn {
-  padding: 5px;
+  border: 1px solid transparent;
+  padding: 4px;
   border-radius: 15px;
   cursor: pointer;
-
-  /* WEIRD BUTTON */
   /* background: #050505; */
-  /* transition: 0.5s; */
-  /* solid #050505 */
+
+  transition: 0.5s;
 }
 
 .manual-btn:hover {
   padding: 4px;
-  border: 1px solid#9bb537;
+  /* border: 1px solid#9bb537; */
   background: #9bb537;
 }
 
@@ -363,4 +361,23 @@
 /* MEDIA QUERIES */
 
 @media screen and (768px <= width <= 1279px) {
+  .hero {
+    margin: auto;
+    padding: 0px 32px;
+    max-width: 768px;
+  }
+
+  .hero-container {
+    flex-direction: column;
+    gap: 64px;
+  }
+
+  .hero-left-side {
+    margin-left: 0px;
+  }
+}
+
+@media screen and (425px <= width <= 768px) {
+  .hero {
+  }
 }
